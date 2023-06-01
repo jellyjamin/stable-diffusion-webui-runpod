@@ -42,4 +42,19 @@ remove
 !rm *.deb
 ```
 
-### then run
+### then click run
+
+### to relaunch instance 
+find your stable diffusion colder 
+
+enter:
+```py
+python launch.py --listen --xformers --enable-insecure-extension-access --theme dark --gradio-queue --multiple
+```
+into the console and it will initlaize the webui
+
+
+### accessing alternatives
+
+use pytorch on run pod 
+
