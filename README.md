@@ -28,7 +28,7 @@ use above command
 click on the version you want 
 
 remove 
-'''py
+```py
 %env TF_CPP_MIN_LOG_LEVEL=1
 
 !apt -y update -qq
@@ -40,6 +40,6 @@ remove
 !dpkg -i *.deb
 %env LD_PRELOAD=libtcmalloc.so
 !rm *.deb
-'''
+```
 
 ### then run
